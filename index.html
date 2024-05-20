@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sebastian felipe piraligua</title>
+  
+  <!-- Agrega los estilos de Materialize CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <style>
+    body{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .profile-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-right: 20px;
+    }
+    .profile-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      .profile-container {
+        flex-direction: column;
+      }
+      .profile-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+    .section {
+      padding-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Barra de navegación -->
+  <nav>
+    <div class="nav-wrapper teal lighten-2">
+      <div class="container">
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#perfil">Perfil</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#educacion">Educación</a></li>
+          <li><a href="#referencias">Referencias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Menú lateral para dispositivos móviles -->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#perfil">Perfil</a></li>
+    <li><a href="#experiencia">Experiencia</a></li>
+    <li><a href="#educacion">Educación</a></li>
+    <li><a href="#referencias">Referencias</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center-align">
+          <div class="profile-container">
+            <img src="assets/img/sebastian_moreno.jpeg" alt="Foto de perfil" class="profile-image circle z-depth-3 materialboxed">
+            <div class="profile-name"><h1>Sebastian Felipe Piraligua Moreno</h1></div>
+          </div>
+        </div>
+      </div>
+      <h3 class="center-align">¡Bienvenido a Mi Hoja de Vida!</h3>
+      
+      <!-- Perfil Profesional -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span id="perfil" class="card-title"><h4>Perfil Profesional</h4></span>
+              <p>Gran motivación para seguir perfeccionando habilidades y crecer profesionalmente. Confianza en mis capacidades y capacidad para planificar y ejecutar proyectos de forma autónoma.</p>
+              <p>Excepcionales dotes comunicativas y de creación de redes. Buen compañero y con capacidad de trabajo independiente. Gran rendimiento bajo presión. Facilidad para seguir instrucciones y generar resultados de calidad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiencia -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <section id="experiencia">
+                <span class="card-title"><h4>Experiencia</h4></span>
+                <div class="divider"></div>
+                <div class="section">
+                  <h5 class="black-text">CASA AMBROSIA HOTEL SPA</h5>
+                  <h6 class="black-text">Botones</h6>
+                  <p class="black-text">2017 a 2020</p>
+                </div>
+                <div class="section">
+                  <h5 class="black-text">CASA AMBROSIA HOTEL SPA</h6>
+                  <h6 class="black-text">Cargo de jefe de mesa y bar</h6>
+                  <p class="black-text">Enero de 2020 a enero de 2023</p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Educación -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <section id="educacion">
+                <span class="card-title"><h4>Educación</h4></span>
+                <div class="divider"></div>
+                <div class="section">
+                  <h5 class="black-text">Secundaria</h5>
+                  <p class="black-text">INSTITUTO DE PROMOCIÓN SOCIAL - Bachiller Académico (2014-2020)</p>
+                </div>
+                <div class="section">
+                  <h5 class="black-text">Técnicos</h5>
+                  <ul class="black-text">
+                    <li>Técnico En Comercio Internacional</li>
+                    <li>Técnica En Promotor Social</li>
+                  </ul>
+                </div>
+                <div class="section">
+                  <h5 class="black-text">Tecnólogo</h5>
+                  <ul class="black-text">En proceso
+                    <li>Tecnólogo en Análisis Y Desarrollo de Software</li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Referencias Personales -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span id="referencias" class="card-title"><h4>Referencias Personales</h4></span>
+              <div class="divider"></div>
+              <ul>
+                <li>Dilza Ramírez - Finca Raíz - 3118957445</li>
+                <li>Jhonatan David Hernández Peña - Gastrónomo y Sommelier</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contacto -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span id="contacto" class="card-title"><h4>Contacto</h4></span>
+              <div class="divider"></div>
+              <ul>
+                <li>Email: sebastianfelipepiraliguamoreno@gmail.com</li>
+                <li>Teléfono: 123-456-7890</li>
+                <li>Dirección: Calle 123, Medellín, Colombia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts de Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    // Inicializa el menú lateral y otros componentes de Materialize
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems);
+    });
+    M.AutoInit();
+  </script>
+</body>
+</html>
